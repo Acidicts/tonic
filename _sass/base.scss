@@ -1,7 +1,20 @@
 body {
-  background-color: #000000;
-  font-family: sans-serif;
+  background-color: rgb(41, 41, 41);
+  font-family: "DejaVu Sans Mono", "Liberation Mono", "Consolas", "Ubuntu Mono", monospace;
   margin: auto;
   max-width: 70ch;
   color: #09ff00;
+  background-image: url("https://assets.hackclub.com/icon-square.svg");
+  background-size: auto;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+  z-index: 1;
 }
