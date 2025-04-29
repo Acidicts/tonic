@@ -2,4 +2,6 @@ title: Hackclubber-Green
 description: "Hacker Green Hackclub style"
 encoding: utf-8
 
+enable-dark-theme: true
+enable-light-theme: false
 exclude: ["README.md", "LICENSE", "*.gem", "*.gemspec", "Gemfile.lock"]
